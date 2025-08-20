@@ -1,0 +1,29 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[4,)" #mandatory
+license = "GNU GPL 3.0"
+[[mods]] #mandatory
+modId = "psitickmaster" #mandatory
+version = "1.0-SNAPSHOT" #mandatory
+displayName = "Psionic Tick Master" #mandatory
+authors = "" #optional
+description = ''''''
+[[mixins]]
+config = "psitickmaster.mixins.json"
+[[dependencies."psitickmaster"]] #optional
+modId = "neoforge" #mandatory
+type = "required" #mandatory
+versionRange = "[21,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+[[dependencies."psitickmaster"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies."psitickmaster"]]
+modId="psi"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

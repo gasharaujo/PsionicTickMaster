@@ -1,0 +1,25 @@
+[20ago.2025 19:07:25.952] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.193, --assetIndex, 17, --assetsDir, C:\\Users\\pichau\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.193, --fml.neoFormVersion, 20240808.144430]
+[20ago.2025 19:07:25.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[20ago.2025 19:07:25.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[20ago.2025 19:07:26.059] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20ago.2025 19:07:26.154] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20ago.2025 19:07:26.314] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20ago.2025 19:07:26.413] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/pichau/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[20ago.2025 19:07:26.568] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 580.88, NVIDIA Corporation
+[20ago.2025 19:07:26.719] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[20ago.2025 19:07:26.721] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		EMI 1.1.22+1.21.1+neoforge (emi)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.193 (neoforge)
+		Patchouli 1.21.1-92-NEOFORGE (patchouli)
+		Psi 2.0.0 (psi)
+		Psionic Tick Master 1.0-SNAPSHOT (psitickmaster)
+[20ago.2025 19:07:27.369] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20ago.2025 19:07:27.374] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[20ago.2025 19:07:27.390] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.193, --gameDir, ., --assetsDir, C:\Users\pichau\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[20ago.2025 19:07:27.467] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[20ago.2025 19:07:27.702] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz.jei.library.load.PluginCaller)
+[20ago.2025 19:07:27.827] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
