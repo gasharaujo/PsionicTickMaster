@@ -5,6 +5,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,6 +32,9 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.slf4j.Logger;
+import vazkii.psi.api.PsiAPI;
+
+import hellisheden.trick.block.PieceTrickTick;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Psitickmaster.MODID)
@@ -72,6 +76,9 @@ public class Psitickmaster {
         LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+
+        // Register Psi spell pieces
+        PsiAPI.registerSpellPiece(new ResourceLocation(MODID, "trick_tick"), PieceTrickTick.class);
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
