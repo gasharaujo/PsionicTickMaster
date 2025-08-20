@@ -1,13 +1,13 @@
-[20ago.2025 19:07:25.952] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.193, --assetIndex, 17, --assetsDir, C:\\Users\\pichau\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.193, --fml.neoFormVersion, 20240808.144430]
-[20ago.2025 19:07:25.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
-[20ago.2025 19:07:25.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
-[20ago.2025 19:07:26.059] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[20ago.2025 19:07:26.154] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[20ago.2025 19:07:26.314] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[20ago.2025 19:07:26.413] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/pichau/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[20ago.2025 19:07:26.568] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 580.88, NVIDIA Corporation
-[20ago.2025 19:07:26.719] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[20ago.2025 19:07:26.721] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[20ago.2025 19:41:27.204] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.193, --assetIndex, 17, --assetsDir, C:\\Users\\pichau\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.193, --fml.neoFormVersion, 20240808.144430]
+[20ago.2025 19:41:27.207] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[20ago.2025 19:41:27.208] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[20ago.2025 19:41:27.344] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20ago.2025 19:41:27.444] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20ago.2025 19:41:27.643] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20ago.2025 19:41:27.750] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/pichau/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[20ago.2025 19:41:27.901] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 580.88, NVIDIA Corporation
+[20ago.2025 19:41:28.106] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[20ago.2025 19:41:28.108] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -17,9 +17,197 @@
 		Patchouli 1.21.1-92-NEOFORGE (patchouli)
 		Psi 2.0.0 (psi)
 		Psionic Tick Master 1.0-SNAPSHOT (psitickmaster)
-[20ago.2025 19:07:27.369] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[20ago.2025 19:07:27.374] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[20ago.2025 19:07:27.390] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.193, --gameDir, ., --assetsDir, C:\Users\pichau\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[20ago.2025 19:07:27.467] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
-[20ago.2025 19:07:27.702] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz.jei.library.load.PluginCaller)
-[20ago.2025 19:07:27.827] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20ago.2025 19:41:28.706] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20ago.2025 19:41:28.710] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[20ago.2025 19:41:28.737] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.193, --gameDir, ., --assetsDir, C:\Users\pichau\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[20ago.2025 19:41:28.809] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[20ago.2025 19:41:28.994] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz.jei.library.load.PluginCaller)
+[20ago.2025 19:41:29.115] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20ago.2025 19:41:30.696] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 297 milliseconds
+[20ago.2025 19:41:34.586] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20ago.2025 19:41:34.587] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20ago.2025 19:41:34.590] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20ago.2025 19:41:34.591] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20ago.2025 19:41:34.592] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20ago.2025 19:41:34.650] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/IntelliJ/projects/PsionicTickMaster/build/moddev/artifacts/neoforge-21.1.193.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[20ago.2025 19:41:34.651] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/IntelliJ/projects/PsionicTickMaster/build/moddev/artifacts/neoforge-21.1.193.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[20ago.2025 19:41:34.668] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20ago.2025 19:41:34.675] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20ago.2025 19:41:34.741] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[20ago.2025 19:41:34.941] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.193, for MC 1.21.1
+[20ago.2025 19:41:35.687] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [psitickmaster]
+[20ago.2025 19:41:35.899] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/emi, mod/patchouli, mod/neoforge, mod/psi, mod/psitickmaster
+[20ago.2025 19:41:35.912] [Worker-Main-2/INFO] [hellisheden.psitickmaster.Psitickmaster/]: HELLO FROM COMMON SETUP
+[20ago.2025 19:41:35.912] [Worker-Main-2/INFO] [hellisheden.psitickmaster.Psitickmaster/]: DIRT BLOCK >> minecraft:dirt
+[20ago.2025 19:41:35.913] [Worker-Main-2/INFO] [hellisheden.psitickmaster.Psitickmaster/]: The magic number is... 42
+[20ago.2025 19:41:35.913] [Worker-Main-2/INFO] [hellisheden.psitickmaster.Psitickmaster/]: ITEM >> minecraft:iron_ingot
+[20ago.2025 19:41:36.008] [Worker-Main-14/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[20ago.2025 19:41:36.059] [Worker-Main-15/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[20ago.2025 19:41:36.546] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'psitickmaster:blockstates/example_block.json' missing model for variant: 'psitickmaster:example_block#'
+[20ago.2025 19:41:36.549] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'psitickmaster:item/example_block' referenced from: psitickmaster:item/example_block: java.io.FileNotFoundException: psitickmaster:models/item/example_block.json
+[20ago.2025 19:41:36.550] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'psitickmaster:item/example_item' referenced from: psitickmaster:item/example_item: java.io.FileNotFoundException: psitickmaster:models/item/example_item.json
+[20ago.2025 19:41:37.174] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20ago.2025 19:41:37.174] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20ago.2025 19:41:37.236] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Alto-falantes (Realtek(R) Audio)
+[20ago.2025 19:41:37.237] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20ago.2025 19:41:37.334] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[20ago.2025 19:41:37.341] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20ago.2025 19:41:37.343] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20ago.2025 19:41:37.343] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20ago.2025 19:41:37.344] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20ago.2025 19:41:37.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20ago.2025 19:41:37.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20ago.2025 19:41:37.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20ago.2025 19:41:37.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20ago.2025 19:41:37.404] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20ago.2025 19:41:37.405] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20ago.2025 19:41:37.405] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20ago.2025 19:41:37.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20ago.2025 19:41:37.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20ago.2025 19:41:37.426] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20ago.2025 19:41:37.473] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 57 jsons
+[20ago.2025 19:41:37.474] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[20ago.2025 19:41:50.377] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1389 recipes
+[20ago.2025 19:41:50.482] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1492 advancements
+[20ago.2025 19:41:50.748] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[20ago.2025 19:41:50.807] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[20ago.2025 19:41:50.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20ago.2025 19:41:51.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20ago.2025 19:41:51.187] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20ago.2025 19:41:51.234] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[20ago.2025 19:41:51.235] [Server thread/INFO] [hellisheden.psitickmaster.Psitickmaster/]: Psi Tick Loaded
+[20ago.2025 19:41:51.236] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[20ago.2025 19:41:51.243] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 188 ms
+[20ago.2025 19:41:51.317] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[20ago.2025 19:41:51.317] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20ago.2025 19:41:51.631] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[20ago.2025 19:41:51.766] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:4ed81cd7] logged in with entity id 20 at (12.763278978329055, -60.0, 5.22220981138196)
+[20ago.2025 19:41:51.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20ago.2025 19:41:52.067] [Render thread/INFO] [EMI/]: [EMI] Tags synchronized, reloading EMI
+[20ago.2025 19:41:52.068] [Render thread/INFO] [EMI/]: [EMI] Starting Reload
+[20ago.2025 19:41:52.070] [Thread-13/INFO] [EMI/]: [EMI] Starting EMI reload...
+[20ago.2025 19:41:52.070] [Thread-13/INFO] [EMI/]: [EMI] Clearing data
+[20ago.2025 19:41:52.089] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[20ago.2025 19:41:52.099] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 214.1 μs
+[20ago.2025 19:41:52.108] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 306.3 μs
+[20ago.2025 19:41:52.118] [Thread-13/INFO] [EMI/]: [EMI] Initializing plugin from emi
+[20ago.2025 19:41:52.130] [Thread-13/INFO] [EMI/]: [EMI] Initialized plugin from emi in 9ms
+[20ago.2025 19:41:52.132] [Thread-13/INFO] [EMI/]: [EMI] Processing tags
+[20ago.2025 19:41:52.137] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 114.9 μs
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:gems/psigem
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:ingots/ebony_psimetal
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:ingots/ivory_psimetal
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:ingots/psimetal
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/ebony_psimetal
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/ivory_psimetal
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/psigem
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #c:storage_blocks/psimetal
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #psi:ebony_substance
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #psi:ivory_substance
+[20ago.2025 19:41:52.137] [Thread-13/ERROR] [EMI/]: [EMI] Untranslated tag #psi:psidust
+[20ago.2025 19:41:52.137] [Thread-13/INFO] [EMI/]: [EMI]  Tag warning can be disabled in the config, EMI docs describe how to add a translation or exclude tags.
+[20ago.2025 19:41:52.168] [Thread-13/INFO] [EMI/]: [EMI] Constructing index
+[20ago.2025 19:41:52.169] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_psi
+[20ago.2025 19:41:52.169] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_rainbow
+[20ago.2025 19:41:52.169] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_empty
+[20ago.2025 19:41:52.170] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_white
+[20ago.2025 19:41:52.170] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_orange
+[20ago.2025 19:41:52.170] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_magenta
+[20ago.2025 19:41:52.170] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_light_blue
+[20ago.2025 19:41:52.170] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_yellow
+[20ago.2025 19:41:52.171] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_lime
+[20ago.2025 19:41:52.171] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_pink
+[20ago.2025 19:41:52.171] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_gray
+[20ago.2025 19:41:52.171] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_light_gray
+[20ago.2025 19:41:52.171] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_cyan
+[20ago.2025 19:41:52.171] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_purple
+[20ago.2025 19:41:52.172] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_blue
+[20ago.2025 19:41:52.172] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_brown
+[20ago.2025 19:41:52.172] [Thread-13/INFO] [EMI/]: [EMI] Reloading item groups on client thread...
+[20ago.2025 19:41:52.172] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_green
+[20ago.2025 19:41:52.172] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_red
+[20ago.2025 19:41:52.172] [Render thread/WARN] [psi/]: Missing crafting recipe psi:cad_colorizer_black
+[20ago.2025 19:41:52.176] [Render thread/WARN] [psi/]: Missing crafting recipe psi:psimetal_sword
+[20ago.2025 19:41:52.176] [Render thread/WARN] [psi/]: Missing crafting recipe psi:psimetal_shovel
+[20ago.2025 19:41:52.176] [Render thread/WARN] [psi/]: Missing crafting recipe psi:psimetal_pickaxe
+[20ago.2025 19:41:52.177] [Render thread/WARN] [psi/]: Missing crafting recipe psi:psimetal_axe
+[20ago.2025 19:41:52.351] [Thread-13/INFO] [EMI/]: [EMI] Reloading item groups on client thread took 179ms
+[20ago.2025 19:41:52.361] [Thread-13/INFO] [EMI/]: [EMI] Loading plugin from emi
+[20ago.2025 19:41:52.534] [Thread-13/INFO] [EMI/]: [EMI] Reloaded plugin from emi in 172ms
+[20ago.2025 19:41:52.534] [Thread-13/INFO] [EMI/]: [EMI] Baking index
+[20ago.2025 19:41:52.557] [Thread-13/INFO] [EMI/]: [EMI] Registering late recipes
+[20ago.2025 19:41:52.558] [Thread-13/INFO] [EMI/]: [EMI] Baking recipes
+[20ago.2025 19:41:52.656] [Thread-13/INFO] [EMI/]: [EMI] Baked 3380 recipes in 96ms
+[20ago.2025 19:41:52.658] [Thread-13/INFO] [EMI/]: [EMI] Baking search
+[20ago.2025 19:41:52.691] [Thread-14/INFO] [EMI/]: [EMI] Baked recipes after reload in 37ms
+[20ago.2025 19:41:52.823] [Thread-13/INFO] [EMI/]: [EMI] Finishing up
+[20ago.2025 19:41:52.854] [Thread-13/INFO] [EMI/]: [EMI] Reloaded EMI in 784ms
+[20ago.2025 19:42:10.851] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20ago.2025 19:42:10.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20ago.2025 19:42:10.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20ago.2025 19:42:10.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20ago.2025 19:44:40.941] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 64 psi:cad_assembler
+[20ago.2025 19:44:43.539] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:programmer
+[20ago.2025 19:44:47.323] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:cad_assembly_creative
+[20ago.2025 19:44:49.458] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:cad_core_radiative
+[20ago.2025 19:44:50.791] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:cad_socket_huge
+[20ago.2025 19:44:51.406] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:cad_battery_ultradense
+[20ago.2025 19:44:54.671] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:spell_bullet
+[20ago.2025 19:45:11.970] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:cad_assembly_creative
+[20ago.2025 19:45:21.354] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:cad
+[20ago.2025 19:45:22.954] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} deleted 1 psi:cad
+[20ago.2025 19:45:24.821] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} deleted 1 psi:cad_assembly_creative
+[20ago.2025 19:45:29.987] [Server thread/INFO] [EMI/]: [EMI] literal{Dev} cheated in 1 psi:spell_bullet
+[20ago.2025 19:45:42.451] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20ago.2025 19:45:42.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20ago.2025 19:45:42.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20ago.2025 19:45:42.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20ago.2025 19:45:47.758] [Render thread/ERROR] [net.minecraft.client.Minecraft/FATAL]: Reported exception thrown!
+net.minecraft.ReportedException: Rendering screen
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1126) ~[neoforge-21.1.193.jar%23192!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1201) ~[neoforge-21.1.193.jar%23192!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.193.jar%23192!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.193.jar%23192!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.41.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.41.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.client.resources.model.Material.buffer(net.minecraft.client.renderer.MultiBufferSource, java.util.function.Function)" because "material" is null
+	at TRANSFORMER/psi@2.0.0/vazkii.psi.api.spell.SpellPiece.drawBackground(SpellPiece.java:376) ~[Psi-1.21.1-105.jar%23196!/:105]
+	at TRANSFORMER/psi@2.0.0/vazkii.psi.api.spell.SpellPiece.draw(SpellPiece.java:357) ~[Psi-1.21.1-105.jar%23196!/:105]
+	at TRANSFORMER/psi@2.0.0/vazkii.psi.client.gui.button.GuiButtonSpellPiece.renderWidget(GuiButtonSpellPiece.java:39) ~[Psi-1.21.1-105.jar%23196!/:105]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractWidget.render(AbstractWidget.java:73) ~[neoforge-21.1.193.jar%23192!/:?]
+	at TRANSFORMER/psi@2.0.0/vazkii.psi.client.gui.GuiProgrammer.render(GuiProgrammer.java:435) ~[Psi-1.21.1-105.jar%23196!/:105]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.renderWithTooltip(Screen.java:112) ~[neoforge-21.1.193.jar%23192!/:?]
+	at TRANSFORMER/neoforge@21.1.193/net.neoforged.neoforge.client.ClientHooks.drawScreenInternal(ClientHooks.java:429) ~[neoforge-21.1.193.jar%23193!/:?]
+	at TRANSFORMER/neoforge@21.1.193/net.neoforged.neoforge.client.ClientHooks.drawScreen(ClientHooks.java:423) ~[neoforge-21.1.193.jar%23193!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1098) ~[neoforge-21.1.193.jar%23192!/:?]
+	... 21 more
+[20ago.2025 19:45:47.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20ago.2025 19:45:47.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20ago.2025 19:45:47.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20ago.2025 19:45:48.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20ago.2025 19:45:48.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20ago.2025 19:45:48.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20ago.2025 19:45:48.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20ago.2025 19:45:48.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20ago.2025 19:45:48.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20ago.2025 19:45:48.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20ago.2025 19:45:48.201] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[20ago.2025 19:45:48.202] [Thread-28/INFO] [EMI/]: [EMI] Clearing data
+[20ago.2025 19:45:48.344] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 3f6d146d-b1b1-44f5-9953-74ee88dc4cb1
+[20ago.2025 19:45:48.356] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 753ca600-d8fc-4739-9c3f-1e870d5609ff

@@ -78,7 +78,14 @@ public class Psitickmaster {
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
 
         // Register Psi spell pieces
-        PsiAPI.registerSpellPiece(new ResourceLocation(MODID, "trick_tick"), PieceTrickTick.class);
+        PsiAPI.registerSpellPiece(
+                ResourceLocation.fromNamespaceAndPath(MODID, "trick_tick"),
+                PieceTrickTick.class
+        );
+        PsiAPI.registerPieceIcon(
+                hellisheden.psitickmaster.spell.PieceTrickTick.class,
+                ResourceLocation.fromNamespaceAndPath(Psitickmaster.MODID, "spell/tick")
+        );
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
